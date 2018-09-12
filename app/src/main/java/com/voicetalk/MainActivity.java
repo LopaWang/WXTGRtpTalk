@@ -21,6 +21,7 @@ import utils.IPUtil;
 public class MainActivity extends AppCompatActivity {
     public static final int STOPPED = 0;
     public static final int RECORDING = 1;
+    //成功
 
 
     ClientManager clientManager ;
