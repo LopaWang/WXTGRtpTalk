@@ -21,6 +21,7 @@ public class PcmRecorder implements Runnable {
 	private Consumer consumer;
 	AudioRecord recordInstance = null;
 
+
 	public PcmRecorder(Consumer consumer) {
 		super();
 		this.consumer = consumer;
